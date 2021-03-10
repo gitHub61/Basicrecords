@@ -1,2 +1,2 @@
 # Basicrecords
-css基础记录
+baseCss文件为基础cs记录
