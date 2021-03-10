@@ -1,0 +1,25 @@
+/* 伪元素 箭头朝上 更改top left right可更改箭头朝向*/
+  .span1{
+      display: block;
+      position:relative;
+      margin:0 auto;
+  }
+  .span1:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -20px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      transform: translateX(-50%);
+  }
+  /* end */
+  
+  <div class="box1">
+        <span class="span1"></span>
+        <p class="p1">伪元素三角形</p>
+    </div>
